@@ -10,6 +10,7 @@ table {
     border-collapse: collapse;
 }
 
+
 th, td {
     border: 1px solid rgba(218, 216, 216, 0.856);
     padding: 10px;
@@ -19,15 +20,23 @@ th {
     background-color: rgb(93, 127, 202);
 }
 
+li {
+    text-align: center;
+}
+
 button {
-    margin-top: 20px;
+    display: inline-block;
+    margin-top: 20px auto 0;
     padding: 10px 20px;
     background-color: green;
     color: white;
     border: none;
     cursor: pointer;
+    
+    
 }
 
 button:hover {
     background-color: darkgreen;
 }
+
