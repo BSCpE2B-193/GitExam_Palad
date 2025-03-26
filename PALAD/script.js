@@ -9,9 +9,11 @@ function changeTableStyle() {
         th.style.color = "white";
     }
 
-    let tds = table.getElementsByTagName("td");
-    for (let td of tds) {
-        td.style.backgroundColor = "lightyellow";
-        td.style.color = "black";
+
+        let tds = tr.getElementsByTagName("td");
+        for (let td of tds) {
+            td.style.backgroundColor = "yellow";
+            td.style.color = "black";
+        }
     }
-}
+
