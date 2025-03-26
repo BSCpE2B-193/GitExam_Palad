@@ -5,13 +5,13 @@ body {
 }
 
 table {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     border-collapse: collapse;
 }
 
 th, td {
-    border: 1px solid black;
+    border: 1px solid rgba(218, 216, 216, 0.856);
     padding: 10px;
 }
 
